@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <iostream>
 using namespace std;
 
 int SetA[100];
@@ -117,11 +117,10 @@ int main()
         system("cls");
         Header();
         Sets();
-        Union();
         Inter();
+        Union();        
         cout << "\n\n\t\tTo continue please press 1, or press 0 to exit:  "; cin >> restart;
     } while (restart==1);
     exit(0);
     return 0;
 }
-
