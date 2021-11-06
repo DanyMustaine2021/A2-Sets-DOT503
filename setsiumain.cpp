@@ -60,6 +60,28 @@ void Sets() {
     cout << "]";
     cout << "\n\n\t\t==========================================================" << endl;
 }
+void Union() {
+    //Calculation of the Union of the Sets
+    cout << "\n\n\t\tThe Union of Set A and Set B, is: [";
+
+    for (i = 0; i < nA; i++) {
+        cout << SetA[i] << " ";
+    }
+    for (j = 0; j < nB; j++) {
+        for (PosTemp = 0; PosTemp < nA; PosTemp++) {
+
+            if (SetB[j] == SetA[PosTemp]) {
+
+                break;
+            }
+        }
+        if (PosTemp == nA) {
+
+            cout << SetB[j] << " ";
+        }
+    }
+    cout << "]";
+}
 
 void Inter() {
 
@@ -96,6 +118,7 @@ int main()
         Header();
         Sets();
         Inter();
+        Union();        
         cout << "\n\n\t\tTo continue please press 1, or press 0 to exit:  "; cin >> restart;
     } while (restart==1);
     exit(0);
