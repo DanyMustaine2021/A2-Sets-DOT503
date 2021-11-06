@@ -60,6 +60,33 @@ void Sets() {
     cout << "\n\n\t\t==========================================================" << endl;
 }
 
+void Inter() {
+
+    //Calculation of the intersection of both sets
+
+    cout << "\n\n\t\tLa intersection of Set A and Set B, is: [";
+
+    do {
+
+        for (i = 0; i < nA; i++) {
+            for (j = 0; j < nB; j++) {
+
+                // cout << "SetA Intersection SetB = [";
+
+                if (SetA[i] == SetB[j]) {
+                    cout << SetA[i] << " ";
+                }
+
+            }
+        }
+    } while (k != 0);
+
+
+    cout << "]";
+    cout << "\n\n\t\t==========================================================" << endl;
+}
+
+
 
 int main()
 {
@@ -67,6 +94,7 @@ int main()
         system("cls");
         Header();
         Sets();
+        Inter();
         cout << "\n\n\t\tTo continue please press 1, or press 0 to exit:  "; cin >> restart;
     } while (restart==1);
     exit(0);
