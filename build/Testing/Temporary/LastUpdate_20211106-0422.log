@@ -1,0 +1,26 @@
+--- Begin Cleanup ---
+--- End Cleanup ---
+"C:/Program Files/Git/cmd/git.exe" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 1750aa7a039cd865bda57a56005c34e1f64f9337
+--- Begin Update ---
+"C:/Program Files/Git/cmd/git.exe" "fetch"
+"C:/Program Files/Git/cmd/git.exe" "rev-parse" "--git-dir"
+rev-parse-out> .git
+FETCH_HEAD> da1fbf53fba266be564e0e78895e7c26e3136e77		branch 'master' of https://github.com/DanyMustaine2021/A2-Sets-DOT503
+"C:/Program Files/Git/cmd/git.exe" "reset" "--hard" "da1fbf53fba266be564e0e78895e7c26e3136e77"
+reset-out> HEAD is now at da1fbf5 Last build update
+"C:/Program Files/Git/cmd/git.exe" "rev-parse" "--show-cdup"
+rev-parse-out> 
+"C:/Program Files/Git/cmd/git.exe" "--version"
+version-out> git version 2.33.0.windows.2
+"C:/Program Files/Git/cmd/git.exe" "submodule" "sync" "--recursive"
+"C:/Program Files/Git/cmd/git.exe" "submodule" "update" "--recursive"
+--- End Update ---
+"C:/Program Files/Git/cmd/git.exe" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> da1fbf53fba266be564e0e78895e7c26e3136e77
+--- Begin Revisions ---
+"C:/Program Files/Git/cmd/git.exe" "rev-list" "--reverse" "1750aa7a039cd865bda57a56005c34e1f64f9337..da1fbf53fba266be564e0e78895e7c26e3136e77" "--" | "C:/Program Files/Git/cmd/git.exe" "diff-tree" "--stdin" "--always" "-z" "-r" "--pretty=raw" "--encoding=utf-8"
+dt-out> 
+"C:/Program Files/Git/cmd/git.exe" "update-index" "--refresh"
+"C:/Program Files/Git/cmd/git.exe" "diff-index" "-z" "HEAD" "--"
+--- End Revisions ---

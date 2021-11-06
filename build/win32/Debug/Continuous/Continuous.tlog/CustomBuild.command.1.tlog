@@ -1,0 +1,20 @@
+^G:\MY DRIVE\TORRNES UNIVERSITY\DEVOPS TOOLS\A2-SETS-DOT503\BUILD\CMAKEFILES\3E767690A2239D0CCD5D36332C7F7E12\CONTINUOUS.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" -C Debug -D Continuous
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^G:\MY DRIVE\TORRNES UNIVERSITY\DEVOPS TOOLS\A2-SETS-DOT503\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SG:/My Drive/Torrnes University/DevOps Tools/A2-Sets-DOT503" "-BG:/My Drive/Torrnes University/DevOps Tools/A2-Sets-DOT503/build" --check-stamp-file "G:/My Drive/Torrnes University/DevOps Tools/A2-Sets-DOT503/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

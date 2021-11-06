@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Update mode="Client" Generator="ctest-3.20.21032501-MSVC_2">
+	<Site>makakitos</Site>
+	<BuildName>Win32-MSBuild</BuildName>
+	<BuildStamp>20211106-0422-Continuous</BuildStamp>
+	<StartDateTime>Nov 06 15:22 AUS Eastern Summer Time</StartDateTime>
+	<StartTime>1636172549</StartTime>
+	<UpdateCommand>"C:/Program Files/Git/cmd/git.exe" "fetch"</UpdateCommand>
+	<UpdateType>GIT</UpdateType>
+	<Revision>da1fbf53fba266be564e0e78895e7c26e3136e77</Revision>
+	<PriorRevision>1750aa7a039cd865bda57a56005c34e1f64f9337</PriorRevision>
+	<EndDateTime>Nov 06 15:22 AUS Eastern Summer Time</EndDateTime>
+	<EndTime>1636172557</EndTime>
+	<ElapsedMinutes>0</ElapsedMinutes>
+	<UpdateReturnStatus/>
+</Update>
