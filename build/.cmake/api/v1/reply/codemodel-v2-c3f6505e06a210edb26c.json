@@ -16,11 +16,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -37,11 +33,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -59,34 +51,6 @@
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ALL_BUILD-Debug-d25c211986a3b3fd23f9.json",
 					"name" : "ALL_BUILD",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Continuous::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Continuous-Debug-22a2d4dbceffb8ee2f99.json",
-					"name" : "Continuous",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Experimental::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Experimental-Debug-6b739f276116d3fe9182.json",
-					"name" : "Experimental",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Nightly::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Nightly-Debug-1ca0318095be42240ad5.json",
-					"name" : "Nightly",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NightlyMemoryCheck-Debug-76d4ac1b11be70169293.json",
-					"name" : "NightlyMemoryCheck",
 					"projectIndex" : 0
 				},
 				{
@@ -113,11 +77,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -134,11 +94,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -156,34 +112,6 @@
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ALL_BUILD-Release-d25c211986a3b3fd23f9.json",
 					"name" : "ALL_BUILD",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Continuous::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Continuous-Release-22a2d4dbceffb8ee2f99.json",
-					"name" : "Continuous",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Experimental::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Experimental-Release-6b739f276116d3fe9182.json",
-					"name" : "Experimental",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Nightly::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Nightly-Release-1ca0318095be42240ad5.json",
-					"name" : "Nightly",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NightlyMemoryCheck-Release-76d4ac1b11be70169293.json",
-					"name" : "NightlyMemoryCheck",
 					"projectIndex" : 0
 				},
 				{
@@ -210,11 +138,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -231,11 +155,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -253,34 +173,6 @@
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d25c211986a3b3fd23f9.json",
 					"name" : "ALL_BUILD",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Continuous::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Continuous-MinSizeRel-22a2d4dbceffb8ee2f99.json",
-					"name" : "Continuous",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Experimental::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Experimental-MinSizeRel-6b739f276116d3fe9182.json",
-					"name" : "Experimental",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Nightly::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Nightly-MinSizeRel-1ca0318095be42240ad5.json",
-					"name" : "Nightly",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NightlyMemoryCheck-MinSizeRel-76d4ac1b11be70169293.json",
-					"name" : "NightlyMemoryCheck",
 					"projectIndex" : 0
 				},
 				{
@@ -307,11 +199,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -328,11 +216,7 @@
 					[
 						0,
 						1,
-						2,
-						3,
-						4,
-						5,
-						6
+						2
 					]
 				}
 			],
@@ -350,34 +234,6 @@
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d25c211986a3b3fd23f9.json",
 					"name" : "ALL_BUILD",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Continuous::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Continuous-RelWithDebInfo-22a2d4dbceffb8ee2f99.json",
-					"name" : "Continuous",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Experimental::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Experimental-RelWithDebInfo-6b739f276116d3fe9182.json",
-					"name" : "Experimental",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "Nightly::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Nightly-RelWithDebInfo-1ca0318095be42240ad5.json",
-					"name" : "Nightly",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "NightlyMemoryCheck::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NightlyMemoryCheck-RelWithDebInfo-76d4ac1b11be70169293.json",
-					"name" : "NightlyMemoryCheck",
 					"projectIndex" : 0
 				},
 				{
