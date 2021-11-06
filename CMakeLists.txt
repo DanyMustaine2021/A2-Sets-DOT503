@@ -10,3 +10,5 @@ add_executable(A2-SETS-DOT503 setsiumain.cpp)
 
 include(CTest)
 
+add_test ("Test1" "${CMAKE_CURRENT_BINARY_DIR} /A2-SETS-DOT503")
+
