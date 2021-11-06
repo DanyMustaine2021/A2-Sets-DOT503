@@ -3,6 +3,8 @@ project(A2-SETS-DOT503)
 
 set(CMAKE_CXX_STANDARD 20)
 
+enable_testing()
+
 add_executable(A2-SETS-DOT503 setsiumain.cpp)
 
 ##install (TARGETS A2-SETS-DOT503 DESTINATION bin) #Cmake_Install_Prefix /bin
