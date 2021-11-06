@@ -13,6 +13,7 @@ void Header() {
     cout << "\n\n\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
     cout << "\n\t\t@@                                              @@";
     cout << "\n\t\t@@      DOT503 -Assessment 2 - Git/Github       @@";
+    cout << "\n\t\t@@       Continuous Integration & Tests         @@";
     cout << "\n\t\t@@          Sets Operations Software            @@";
     cout << "\n\t\t@@           Union & Intersecction              @@";
     cout << "\n\t\t@@             By Daniel Martinez               @@";
