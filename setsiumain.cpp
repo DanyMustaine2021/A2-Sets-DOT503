@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iostream>
+
 using namespace std;
 
 int SetA[100];
@@ -13,6 +13,7 @@ void Header() {
     cout << "\n\n\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
     cout << "\n\t\t@@                                              @@";
     cout << "\n\t\t@@      DOT503 -Assessment 2 - Git/Github       @@";
+    cout << "\n\t\t@@       Continuous Integration & Tests         @@";
     cout << "\n\t\t@@          Sets Operations Software            @@";
     cout << "\n\t\t@@           Union & Intersecction              @@";
     cout << "\n\t\t@@             By Daniel Martinez               @@";
@@ -82,6 +83,33 @@ void Union() {
     cout << "]";
 }
 
+void Inter() {
+
+    //Calculation of the intersection of both sets
+
+    cout << "\n\n\t\tLa intersection of Set A and Set B, is: [";
+
+    do {
+
+        for (i = 0; i < nA; i++) {
+            for (j = 0; j < nB; j++) {
+
+                // cout << "SetA Intersection SetB = [";
+
+                if (SetA[i] == SetB[j]) {
+                    cout << SetA[i] << " ";
+                }
+
+            }
+        }
+    } while (k != 0);
+
+
+    cout << "]";
+    cout << "\n\n\t\t==========================================================" << endl;
+}
+
+
 
 int main()
 {
@@ -90,6 +118,7 @@ int main()
         Header();
         Sets();
         Union();
+        Inter();
         cout << "\n\n\t\tTo continue please press 1, or press 0 to exit:  "; cin >> restart;
     } while (restart==1);
     exit(0);
