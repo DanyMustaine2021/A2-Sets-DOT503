@@ -12,8 +12,8 @@ void Header() {
     //Header Of the Application
     cout << "\n\n\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
     cout << "\n\t\t@@                                              @@";
-    cout << "\n\t\t@@      DOT503 -Assessment 2 - Git/Github       @@";
-    cout << "\n\t\t@@       Continuous Integration & Tests         @@";
+    cout << "\n\t\t@@            DOT503 -Assessment 3              @@";
+    cout << "\n\t\t@@               CI/CD Pipeline                 @@";
     cout << "\n\t\t@@          Sets Operations Software            @@";
     cout << "\n\t\t@@           Union & Intersecction              @@";
     cout << "\n\t\t@@             By Daniel Martinez               @@";
