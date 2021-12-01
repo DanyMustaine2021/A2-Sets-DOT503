@@ -12,8 +12,8 @@ void Header() {
     //Header Of the Application
     cout << "\n\n\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@";
     cout << "\n\t\t@@                                              @@";
-    cout << "\n\t\t@@            DOT503 -Assessment 3              @@";
-    cout << "\n\t\t@@               CI/CD Pipeline                 @@";
+    cout << "\n\t\t@@        DOT503 - Assessment 3 - Final         @@";
+    cout << "\n\t\t@@             CI / CD Pipeline                 @@";
     cout << "\n\t\t@@          Sets Operations Software            @@";
     cout << "\n\t\t@@           Union & Intersecction              @@";
     cout << "\n\t\t@@             By Daniel Martinez               @@";
@@ -60,55 +60,6 @@ void Sets() {
     cout << "]";
     cout << "\n\n\t\t==========================================================" << endl;
 }
-void Union() {
-    //Calculation of the Union of the Sets
-    cout << "\n\n\t\tThe Union of Set A and Set B, is: [";
-
-    for (i = 0; i < nA; i++) {
-        cout << SetA[i] << " ";
-    }
-    for (j = 0; j < nB; j++) {
-        for (PosTemp = 0; PosTemp < nA; PosTemp++) {
-
-            if (SetB[j] == SetA[PosTemp]) {
-
-                break;
-            }
-        }
-        if (PosTemp == nA) {
-
-            cout << SetB[j] << " ";
-        }
-    }
-    cout << "]";
-}
-
-void Inter() {
-
-    //Calculation of the intersection of both sets
-
-    cout << "\n\n\t\tLa intersection of Set A and Set B, is: [";
-
-    do {
-
-        for (i = 0; i < nA; i++) {
-            for (j = 0; j < nB; j++) {
-
-                // cout << "SetA Intersection SetB = [";
-
-                if (SetA[i] == SetB[j]) {
-                    cout << SetA[i] << " ";
-                }
-
-            }
-        }
-    } while (k != 0);
-
-
-    cout << "]";
-    cout << "\n\n\t\t==========================================================" << endl;
-}
-
 
 
 int main()
@@ -117,10 +68,9 @@ int main()
         system("cls");
         Header();
         Sets();
-        Inter();
-        Union();        
         cout << "\n\n\t\tTo continue please press 1, or press 0 to exit:  "; cin >> restart;
     } while (restart==1);
     exit(0);
     return 0;
 }
+
